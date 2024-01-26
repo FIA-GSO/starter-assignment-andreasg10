@@ -1,0 +1,8 @@
+conf t
+int FastEthernet 1/0
+description Uplink-PPP
+keepalive
+no shut
+exit
+end
+write mem
